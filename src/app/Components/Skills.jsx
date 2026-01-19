@@ -51,17 +51,20 @@ export default function Skills() {
           );
         })}
       </motion.div>
+<div className="absolute rounded-full w-40 h-40 flex items-center justify-center border-4 border-gray-900 shadow-xl
+      bg-gray-900">
+  {/* Outer Circle */}
+  <div className="w-32 h-32 rounded-full border-2 border-gray-800 bg-gray-800 flex items-center justify-center">
+    {/* Middle Circle */}
+    <div className="w-16 h-16 rounded-full border-2 border-gray-700 bg-gray-700 flex items-center justify-center">
+      {/* Innermost Circle */}
+      <div className="w-6 h-6 rounded-full border-2 border-gray-600 bg-gray-600"></div>
+    </div>
+  </div>
+</div>
 
-      {/* Center image */}
-      <div className="absolute rounded-full overflow-hidden w-40 h-40 border-4 border-purple-500 shadow-xl">
-        <Image
-          src="https://i.ibb.co/Q7M32j7g/SuHalf.jpg" // replace with your image
-          alt="Profile"
-          fill
-          className="object-cover"
-        />
-      </div>
-     
+
+
     </div>
   <div className="pt-10 px-10 ">
       <div className="flex flex-wrap justify-center gap-2 mt-2">

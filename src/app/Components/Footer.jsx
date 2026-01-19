@@ -2,23 +2,24 @@ import Image from 'next/image'
 import React from 'react'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
+import Chatbot from '../Chatbot'
 
 export default function Footer() {
   return (
     <footer className="bg-black text-gray-300 border-t border-gray-800 py-10 px-6 md:px-16 mt-0">
+      <Chatbot/>
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start gap-10 md:gap-0">
         
         {/* Left - Logo & Description */}
-        <div className="flex flex-col lg:items-center md:items-start items-start text-left md:text-left md:w-1/3">
+        <div className="flex flex-col  item-start md:items-start  text-left md:text-left md:w-1/3">
           <div className="flex lg:items-center gap-2">
             <span className="text-lime-400 text-2xl font-bold">&lt;/&gt;</span>
             <span className="text-xl font-bold text-white ">Sumaia</span>
           </div>
           <p className="text-sm text-gray-400 mt-2 max-w-xs">
-            Frontened developer passionate about crafting clean, elegant, and user-friendly web experiences. Let’s build something amazing together.
+           I'm a Frontened developer passionate about crafting clean, elegant, and user-friendly web experiences. Let’s build something amazing together.
           </p>
         </div>
-
         {/* Middle - Navigation */}
         <div className="flex flex-col px-5 md:items-start text-left lg:text-center md:text-left md:w-1/3">
           <h3 className="font-semibold text-gray-200 mb-3 uppercase tracking-wider text-sm">Navigation</h3>

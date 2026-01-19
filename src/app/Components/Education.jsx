@@ -14,7 +14,7 @@ export default function  () {
           University Of Development Alternative
         </h3>
         <p className="text-gray-400 mt-2">
-          May 2019 – May 2023
+          May 2019 – June 2023
         </p>
       </div>
       {/* <h1 className="text-4xl pt-5 font-bold mb-8 border-b-2 border-lime-400 pb-2 inline-block">
